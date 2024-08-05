@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="Rock-Paper-Scissor.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissors Game</h1>
+    <div class="game">
+        <div class="choices-container">
+            <div class="choice" id="rock">
+                <p class="rpc-text" id="rock-text">Rock</p>
+                <img src="https://anamikaraj03.github.io/Rock-Paper-scissor-Game/rock.png" alt="Image of Rock here">
+            </div>
+            <div class="choice" id="paper">
+                <p class="rpc-text" id="paper-text">Paper</p>
+                <img src="https://th.bing.com/th/id/OIF.QcVzxPOvMf2dk6hnTn87JQ?rs=1&pid=ImgDetMain" alt="Image of Paper here">
+            </div>
+            <div class="choice" id="scissor">
+                <p class="rpc-text" id="scissor-text">Scissor</p>
+                <img src="https://th.bing.com/th/id/OIF.GL81prCaVwLnLLgmSHM8Tw?rs=1&pid=ImgDetMain" alt="Image of Scissor here">
+            </div>
+        </div>
+        <div class="score-board-container">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg">Play Your Move</p>
+        </div>
+        <button id="reset-btn">Reset Score</button>
+    </div>
+    <script src="Rock-Paper-Scissor.js"></script>
+</body>
+</html>
